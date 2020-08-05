@@ -98,7 +98,7 @@ class Compte
     {
         return $this->numcompte;
     }
-    public function setNumcomp($numcompte)
+    public function setNumcompte($numcompte)
     {
         $this->numcompte = $numcompte;
     }

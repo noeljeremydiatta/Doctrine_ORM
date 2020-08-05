@@ -1,4 +1,6 @@
 <?php
+//Création d'un nouveau client
+
 require_once "../bootstrap.php";
 
 $client = new Client();
@@ -16,6 +18,6 @@ $client->setAdem("VDN");
 $entityManager->persist($client);
 $entityManager->flush();
 
-//echo $client->getId_client(); 
+echo $client->getId_client();
 
 ?>
